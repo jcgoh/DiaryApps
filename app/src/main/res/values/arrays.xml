@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="months_per_year">
+        <item>Jan 2020</item>
+        <item>Feb 2020</item>
+        <item>Mar 2020</item>
+        <item>Apr 2020</item>
+        <item>May 2020</item>
+        <item>Jun 2020</item>
+        <item>Jul 2020</item>
+        <item>Aug 2020</item>
+        <item>Sep 2020</item>
+        <item>Oct 2020</item>
+        <item>Nov 2020</item>
+        <item>Dec 2020</item>
+    </string-array>
+</resources>

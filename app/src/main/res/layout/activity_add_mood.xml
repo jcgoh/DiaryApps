@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HOW YOU DOIN?"
+            android:textSize="24dp"
+            android:textColor="@color/black_1000"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="0.2">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:id="@+id/ivAwesome"
+                        android:background="@drawable/ic_awesome"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"/>
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/ivCheckAwesome"
+                        android:background="@drawable/ic_check"
+                        android:visibility="gone"
+                        android:layout_alignParentEnd="true"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Joyful"
+                    android:textSize="12dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/green_500"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="0.2">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:id="@+id/ivHappy"
+                        android:background="@drawable/ic_happy"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"/>
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/ivCheckHappy"
+                        android:background="@drawable/ic_check"
+                        android:visibility="gone"
+                        android:layout_alignParentEnd="true"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Happy"
+                    android:textSize="12dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/blue_500"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="0.2">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:id="@+id/ivNormal"
+                        android:background="@drawable/ic_normal"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"/>
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/ivCheckNormal"
+                        android:background="@drawable/ic_check"
+                        android:visibility="gone"
+                        android:layout_alignParentEnd="true"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Normal"
+                    android:textSize="12dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/yellow_600"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="0.2">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:id="@+id/ivSad"
+                        android:background="@drawable/ic_sad"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"/>
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/ivCheckAnnoyed"
+                        android:background="@drawable/ic_check"
+                        android:visibility="gone"
+                        android:layout_alignParentEnd="true"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Annoyed"
+                    android:textSize="12dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/orange_600"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="0.2">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:id="@+id/ivAngry"
+                        android:background="@drawable/ic_disappointed"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"/>
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/ivCheckAngry"
+                        android:background="@drawable/ic_check"
+                        android:visibility="gone"
+                        android:layout_alignParentEnd="true"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Angry"
+                    android:textSize="12dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/red_600"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:background="@drawable/ic_date_purple"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etDate"
+            android:textSize="14dp"
+            android:textColor="@color/purple_special"
+            android:clickable="true"
+            android:editable="false"
+            android:focusable="false"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:background="@drawable/ic_time_purple"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etTime"
+            android:textSize="14dp"
+            android:textColor="@color/purple_special"
+            android:clickable="true"
+            android:editable="false"
+            android:focusable="false"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rvTask"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rvGoals"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etAdditional"
+        android:hint="Add Notes..."
+        android:background="@color/grey_200"
+        android:layout_margin="10dp"
+        android:padding="10dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSave"
+            android:text="SAVE"
+            android:textSize="13dp"
+            android:textColor="@color/white_1000"
+            android:background="@drawable/border_purple_full"
+            android:padding="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
